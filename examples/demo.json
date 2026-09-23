@@ -1,0 +1,7 @@
+{
+  "name":"demo-tone-mix","sample_rate":48000,"channels":2,"duration_ms":4000,
+  "tracks":[
+    {"id":"tone-a","clips":[{"id":"a","start_ms":0,"duration_ms":2500,"gain_db":-2,"fade_in_ms":120,"fade_out_ms":300,"source":{"type":"tone","frequency_hz":220}}]},
+    {"id":"tone-b","clips":[{"id":"b","start_ms":1200,"duration_ms":2500,"gain_db":-5,"fade_in_ms":300,"fade_out_ms":250,"source":{"type":"tone","frequency_hz":330}}]}
+  ]
+}

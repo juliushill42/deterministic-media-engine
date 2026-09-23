@@ -1,0 +1,1 @@
+{"$schema":"https://json-schema.org/draft/2020-12/schema","title":"DME Project","type":"object","required":["name","sample_rate","channels","duration_ms","tracks"],"properties":{"name":{"type":"string"},"sample_rate":{"type":"integer","minimum":8000,"maximum":192000},"channels":{"enum":[1,2]},"duration_ms":{"type":"integer","minimum":1},"tracks":{"type":"array"}}}
