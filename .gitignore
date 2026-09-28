@@ -1,0 +1,5 @@
+dist/dme
+dist/*.wav
+dist/*.json
+*.log
+.DS_Store
